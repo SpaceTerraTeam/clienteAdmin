@@ -27,7 +27,7 @@
           'email': email,
           'rol': rol,
         },
-        success:function(){
+        success:function(data){
           if (data.code == '200') 
            {
             alert("se registro");
@@ -88,7 +88,7 @@
           
         },
         success:function(data){
-          
+
           mostrar(data.data);
       //    alert($users);
         }
