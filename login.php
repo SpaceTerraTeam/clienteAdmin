@@ -74,7 +74,7 @@
         headers: {
          'Authorization' : sessionStorage.getItem('token')
         },
-        url: 'http://81.169.234.32/sanwichino/proyectoss/public/index.php/usuario/allUsers',
+        url: 'http://81.169.234.32/sanwichino/proyectoss/public/index.php/usuario/authorization',
         dataType: 'json',
         type: 'GET',
         data: {
