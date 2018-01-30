@@ -30,7 +30,7 @@
            }
           if (data.code == '400') 
           {
-              alert(data.code);
+              alert(data.message);
           }
         }
       });
