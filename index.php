@@ -20,12 +20,14 @@
           'password': password
         },
         success: function(data){
-          sessionStorage.setItem('username', data.username);
-          sessionStorage.setItem('token',  data.data);
-          $tok = sessionStorage.getItem('token');
-          alert($tok) ;
-          window.location.href = 'login.php';
-
+          if (data.code == '200') 
+           {
+            sessionStorage.setItem('username', data.username);
+            sessionStorage.setItem('token',  data.data);
+            $tok = sessionStorage.getItem('token');
+            alert($tok) ;
+            window.location.href = 'login.php';
+           }
         }
       });
     });
