@@ -17,7 +17,7 @@
       var email = $(".email").val();
       var rol = $(".rol").val();
       $.ajax({
-        url: 'http://81.169.234.32/proyectoss/public/index.php/usuario/create',
+        url: 'http://81.169.234.32/sanwichino/proyectoss/public/index.php/usuario/create',
         dataType: 'json',
         type: 'POST',
         data: {
@@ -45,7 +45,7 @@
           headers: {
           'Authorization' : sessionStorage.getItem('token')
          },
-          url: 'http://81.169.234.32/proyectoss/public/index.php/usuario/deleteUser',
+          url: 'http://81.169.234.32/sanwichino/proyectoss/public/index.php/usuario/deleteUser',
           dataType: 'json',
           type: 'POST',
           data: {
@@ -74,7 +74,7 @@
         headers: {
          'Authorization' : sessionStorage.getItem('token')
         },
-        url: 'http://81.169.234.32/proyectoss/public/index.php/usuario/allUsers',
+        url: 'http://81.169.234.32/sanwichino/proyectoss/public/index.php/usuario/allUsers',
         dataType: 'json',
         type: 'GET',
         data: {
