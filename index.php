@@ -12,7 +12,7 @@
       var password = $(".password").val();
       e.preventDefault();
       $.ajax({
-        url: 'http://localhost:8888/proyectoss/public/index.php/usuario/login',
+        url: 'http://81.169.234.32/proyectoss/public/index.php/usuario/login',
         dataType: 'json',
         type: 'GET',
         data: {
