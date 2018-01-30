@@ -28,7 +28,14 @@
           'rol': rol,
         },
         success:function(){
-          alert("se registro");
+          if (data.code == '200') 
+           {
+            alert("se registro");
+           }
+          if (data.code == '400') 
+          {
+            alert(data.message);
+          }
         }
       });
     });
@@ -81,6 +88,7 @@
           
         },
         success:function(data){
+          
           mostrar(data.data);
       //    alert($users);
         }
