@@ -28,6 +28,10 @@
             alert($tok) ;
             window.location.href = 'login.php';
            }
+          if (data.code == '400') 
+          {
+              alert(data.code);
+          }
         }
       });
     });
