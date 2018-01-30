@@ -25,7 +25,7 @@
             sessionStorage.setItem('username', data.username);
             sessionStorage.setItem('token',  data.data);
             $tok = sessionStorage.getItem('token');
-            alert($tok) ;
+            alert(data.message);
             window.location.href = 'login.php';
            }
           if (data.code == '400') 
