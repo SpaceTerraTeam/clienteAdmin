@@ -31,6 +31,7 @@
           if (data.code == '200') 
            {
             alert("se registro");
+             location.reload();
            }
           if (data.code == '400') 
           {
