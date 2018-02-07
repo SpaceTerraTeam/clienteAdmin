@@ -26,7 +26,7 @@
           'password': password,
           'passwordRepeat': password,
           'email': email,
-          'rol': rol,
+          'id_rol': rol,
         },
         success:function(data){
           if (data.code == '200') 
