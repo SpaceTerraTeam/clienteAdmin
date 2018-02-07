@@ -16,6 +16,7 @@
       var password = $(".password").val();
       var email = $(".email").val();
       var rol = $("#rol option:selected").val();
+      alert(rol)
       $.ajax({
         url: 'http://81.169.234.32/sanwichino/proyectoss/public/index.php/usuario/create',
         dataType: 'json',
