@@ -145,10 +145,10 @@
       <div class="input-group center-block" >
           <!-- Input Rol -->
 
-        <select  style="width: 70px;margin-left: 5px">
-            <option class="rol" value="1">Admin</option>
-            <option class="rol" value="2">User</option>
-            <option class="rol" value="3">Premium</option>
+        <select name="rol" value="rol[]"  style="width: 70px;margin-left: 5px">
+            <option name="rol" value="1">Admin</option>
+            <option name="rol" value="2">User</option>
+            <option name="rol" value="3">Premium</option>
         </select>  
         
         <!-- <input step="1" type="number" min="1" max="3" class="form-control mb-2 rol" id="inlineFormInput" placeholder="Rol" style="width: 70px;margin-left: 5px"> -->
