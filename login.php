@@ -145,7 +145,7 @@
       <div class="input-group center-block" >
           <!-- Input Rol -->
 
-        <select name="rol" class="rol"  style="width: 70px;margin-left: 5px">
+        <select name="rol" class="rol input-group center-block"  style="width: 70px;margin-left: 5px">
             <option value="1">Admin</option>
             <option value="2">User</option>
             <option value="3">Premium</option>
