@@ -145,7 +145,11 @@
       <div class="input-group center-block" >
           <!-- Input Rol -->
 
-       
+        <select name="rol" class="rol input-group center-block"  style="width: 70px;margin-left: 5px">
+            <option value="1">Admin</option>
+            <option value="2">User</option>
+            <option value="3">Premium</option>
+        </select>  
         
         <!-- <input step="1" type="number" min="1" max="3" class="form-control mb-2 rol" id="inlineFormInput" placeholder="Rol" style="width: 70px;margin-left: 5px"> -->
        
@@ -158,12 +162,6 @@
        
         <!-- Input Password -->
        <input type="text" style="width: 250px;margin-left: 5px" class="form-control password" id="inlineFormInputGroup" placeholder="Password">
-
-        <select name="rol" class="rol input-group center-block"  style="width: 70px;margin-left: 5px">
-            <option value="1">Admin</option>
-            <option value="2">User</option>
-            <option value="3">Premium</option>
-        </select>  
     
     </div>
      <!-- Input Password -->
