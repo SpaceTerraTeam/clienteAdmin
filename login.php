@@ -82,7 +82,7 @@
         headers: {
          'Authorization' : sessionStorage.getItem('token')
         },
-        url: 'http://81.169.234.32/sanwichino/proyectoss/public/index.php/usuario/allUsers',
+        /*url: 'http://81.169.234.32/sanwichino/proyectoss/public/index.php/usuario/allUsers',*/
         dataType: 'json',
         type: 'GET',
         data: {
@@ -144,7 +144,14 @@
       
       <div class="input-group center-block" >
           <!-- Input Rol -->
-        <input step="1" type="number" min="1" max="3" class="form-control mb-2 rol" id="inlineFormInput" placeholder="Rol" style="width: 70px;margin-left: 5px">
+
+        <select class="rol" style="width: 70px;margin-left: 5px">
+            <option value="1">Admin</option>
+            <option value="2">User</option>
+            <option value="3">Premium</option>
+        </select>  
+        
+        <!-- <input step="1" type="number" min="1" max="3" class="form-control mb-2 rol" id="inlineFormInput" placeholder="Rol" style="width: 70px;margin-left: 5px"> -->
        
         <!-- Input Email -->
         <input type="text" style="width: 200px;margin-left: 5px" class="form-control email ce" id="inlineFormInputGroup" placeholder="Email">
