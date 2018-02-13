@@ -149,9 +149,10 @@
       function cambia_de_pagina(id){
           sessionStorage.setItem('id', id);
          // alert("Cambio de pagina");
-          location.href="http://81.169.234.32/sanwichino/proyectoss/public/index.php/usuario/updateuser.php"
+          location.href="http://81.169.234.32/sanwichino/proyectoss/updateuser.php"
 
-        //  http://81.169.234.32/sanwichino/proyectoss/public/index.php/usuario/updateuser.php
+          // http://localhost:8888/clienteAdminLOCAL/updateuser.php
+        //  http://81.169.234.32/sanwichino/proyectoss/updateuser.php
       }
       </script>
 
