@@ -112,32 +112,22 @@
 </div>
   <br>
   
-  <!-- Añadir Esquema -->
-  
-  <div class="nput-group center-block">
-      <form>
-  <div class="form-row align-items-center">
-    <div class="col-auto center-block">
-   
+
+      <div class="input-group center-block" style=" width: 250px" >
       
       <!-- Añadir Name Esquema -->
 
-      <input type="text" class="form-control mb-2 name" id="inlineFormInput" style="width: 150px; margin-left: 5px" placeholder="Name" >
-
+      <input type="text" class="form-control mb-2 name" id="inlineFormInput" style="margin-top: 2px" placeholder="Nombre del esquema" >
 
           <!-- Añadir Editable Esquema -->
-
-      <input type="number" min="0" max="1" class="form-control mb-2 editable" id="inlineFormInput" style="width: 100px; margin-top: 5px;margin-left: 5px" placeholder="Editable">
-    </div>
+      <input type="number" min="0" max="1" class="form-control mb-2 editable" id="inlineFormInput" style="margin-top: 5px" placeholder="Editable">
+    
    
          <!-- Btn Añadir -->
-         
-    <div class="col-auto">
-      <button type="submit" style="margin-left: 5px; margin-top: 5px" class="btn btn-primary mb-2 crearEsquema">Añadir</button>
+        
+      <button type="submit" style="margin-top: 5px; margin-left: 100px" class="btn btn-primary mb-2 crearEsquema">Añadir</button>
+
     </div>
-  </div>
-</form>
-  </div>
   
   <!-- Lista de Esquemas -->
    <br>
